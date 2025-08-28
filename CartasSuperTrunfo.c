@@ -43,7 +43,7 @@ int main() {
     scanf(" %d", &pontos_turisticos1);
 
     //Calcular a Densidade Populacional:
-    Densi_Pop1 = populacao1 / area1;
+    Densi_Pop1 = (float)populacao1 / area1;
 
     //Calcular o PIB per Capita
     PIB_perCapita1 = PIB1 / populacao1;
@@ -93,7 +93,7 @@ int main() {
     scanf(" %d", &pontos_turisticos2);
 
     // Calcular a Densidade Populacional:
-    Densi_Pop2 = populacao2 / area2;
+    Densi_Pop2 = (float)populacao2 / area2;
 
     // Calcular o PIB per Capita
     PIB_perCapita2 = PIB2 / populacao2;
